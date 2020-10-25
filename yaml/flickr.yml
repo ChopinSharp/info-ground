@@ -1,11 +1,11 @@
-downloads_dir: /shared/rsaas/tgupta6/Data/info-ground/flickr30k_downloads
-anno_dir: /shared/rsaas/tgupta6/Data/info-ground/flickr30k_downloads/Annotations
-sent_dir: /shared/rsaas/tgupta6/Data/info-ground/flickr30k_downloads/Sentences
-exp_dir: /shared/rsaas/tgupta6/Data/info-ground/flickr_exp
-proc_dir: /shared/rsaas/tgupta6/Data/info-ground/flickr30k_proc
-local_proc_dir: /data/tgupta6/info-ground/flickr30k_proc
-image_dir: /data/tgupta6/info-ground/flickr30k_images
-det_dir: /data/tgupta6/info-ground/flickr30k_proc/bottomup_flickr_detections
+downloads_dir: f30k_data/flickr30k_downloads
+anno_dir: f30k_data/flickr30k_downloads/Annotations
+sent_dir: f30k_data/flickr30k_downloads/Sentences
+exp_dir: f30k_data/flickr_exp
+proc_dir: f30k_data/flickr30k_proc
+local_proc_dir: f30k_data/flickr30k_proc
+image_dir: /new_home/mwb/datasets/flickr30k-images
+det_dir: f30k_data/bottomup_flickr_detections
 
 # Files in proc_dir
 subsets:

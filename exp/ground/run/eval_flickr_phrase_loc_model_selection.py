@@ -68,7 +68,7 @@ def main(**kwargs):
 
     model_nums = find_all_model_numbers(exp_const.model_dir)
     for num in model_nums:
-        continue
+        # continue
         if num <= 3000:
             continue
 

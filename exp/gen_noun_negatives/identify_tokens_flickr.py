@@ -19,7 +19,7 @@ def main(**kwargs):
     print('Creating Caption Encoder (tokenizer) ...')
     cap_encoder = CapEncoder(CapEncoderConstants())
 
-    nltk.download('punkt')
+    # nltk.download('punkt')
 
     data_const = FlickrDatasetConstants(kwargs['subset'])
     data_const.read_noun_token_ids = False
